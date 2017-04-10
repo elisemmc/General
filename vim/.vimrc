@@ -21,7 +21,8 @@ set nocompatible
 filetype indent plugin on
  
 " Enable syntax highlighting
-syntax on
+syntax enable
+colorscheme monokai
  
  
 "------------------------------------------------------------

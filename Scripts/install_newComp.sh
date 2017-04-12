@@ -10,9 +10,10 @@ mkdir ~/git
 cd ~/git
 git clone https://github.com/elisemmc/General.git
 ln -sf ~/git/General/vim/.vimrc ~/.vimrc
-git clone https://github.com/elisemmc/vim-monokai.git
-mkdir -p ~/.vim/colors
-ln -sf ~/git/vim-monokai/colors/monokai.vim ~/.vim/colors/monokai.vim
+
+git clone https://github.com/Reewr/vim-monokai-phoenix.git
+mkdir -p ~/.vim/plugin/
+ln -sf ~/git/vim-monokai-phoenix/colors/monokai-phoenix.vim ~/.vim/plugin/monokai-phoenix.vim
 
 git config --global user.email 'crimsoncrescentmoon@gmail.com'
 git config --global user.name 'Elise'

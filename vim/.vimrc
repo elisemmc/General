@@ -6,6 +6,11 @@
 "              on this file is still a good idea.
  
 "------------------------------------------------------------
+" Plugins
+
+set runtimepath^=~/.vim/bundle/monokai-phoenix.vim
+
+"------------------------------------------------------------
 " Features {{{1
 "
 " These options and commands enable some very useful features in Vim, that
@@ -22,8 +27,6 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax enable
-colorscheme monokai
- 
  
 "------------------------------------------------------------
 " Must have options {{{1
